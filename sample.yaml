@@ -6,3 +6,6 @@ spec:
   containers:
   - name: private-reg-container
     image: 13.37.32.105:8085/sample
+    imagePullPolicy: Always
+  imagePullSecrets:
+  - name: regcred
