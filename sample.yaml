@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: private-reg-container
-    image: http://13.37.32.105:8085/sample
+    image: 13.37.32.105:8085/sample
   imagePullSecrets:
   - name: regcred
