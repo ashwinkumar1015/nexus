@@ -5,6 +5,4 @@ metadata:
 spec:
   containers:
   - name: private-reg-container
-    image: 13.37.32.105:8085/repository/ak-docker-repo/sample
-  imagePullSecrets:
-  - name: regcred
+    image: 13.37.32.105:8085/sample
